@@ -1,0 +1,395 @@
+﻿@{
+    ViewBag.Title = "index1";
+}
+
+@{
+    ViewBag.Title = "index";
+}
+
+<!doctype html>
+<html lang="en" dir="ltr" class="no-js">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fashion Theme Responsive">
+    <meta name="keywords" content="Fashion, HTML5 Theme,CSS3 Animation,JavaScript, Crunch Press">
+    <meta name="author" content="Crunch Press">
+    <link rel="shortcut icon" href="images/fashopn.html">
+    <title>Fashion Theme Responsive</title>
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/color.css" rel="stylesheet">
+    <link href="~/css/bootstrap.css" rel="stylesheet">
+    <link href="~/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/css/jquery.bxslider.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <section class="header">
+            <div class="topbar">
+                <div class="container">
+
+                    <div class="top-nav">
+                        <a href="~/Login/login">Login</a> / <a href="~/Login/Register">Register</a> 
+                        @*<a href="~/Login/login">logout /</a> <span class="top-cart"><i class="fa fa-shopping-cart"></i> Cart (0)</span></div>*@
+                    </div>
+                </div>
+                <div class="nav-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="head-nav">
+                                    <div role="navigation" class="navbar navbar-inverse">
+                                        <div class="navbar-header">
+                                            <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                            <a class="navbar-brand" href="~/Home/index"><img src="images/logo.png" alt="Fashion Responsive"></a>
+                                        </div>
+                                        <div class="collapse navbar-collapse">
+                                            <nav id="nav">
+                                                <ul>
+                                                    <li class="active">
+                                                        <a href="~/Home/index">Home</a>
+                                                        @*<ul>
+                                                        <li><a href="index-2.html">Home Option 1</a></li>
+                                                        <li><a href="home-option-two.html">Home Option 2</a></li>
+                                                        <li><a href="home-option-three.html">Home Option 3</a></li>
+                                                        <li><a href="home-option-four.html">Home Option 4</a></li>
+                                                        <li><a href="home-option-five.html">Home Option 5</a></li>
+                                                        </ul>*@
+                                                    </li>
+                                                    <li><a href="~/Aboutus/Aboutus">About Us</a></li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                                        <ul>
+                                                            <li><a href="~/Pages/Team">Team</a></li>
+                                                            <li><a href="~/Pages/FAQs">FAQs</a></li>
+                                                            <li><a href="~/Pages/Testim">Testimonials</a></li>
+                                                            <li><a href="~/Pages/p404">404</a></li>
+                                                            @*<li><a href="gallery-large.html">Gallery Large</a></li>
+                                                            <li><a href="gallery-medium.html">Gallery Medium</a></li>
+                                                            <li><a href="gallery-small.html">Gallery Small</a></li>
+                                                            <li><a href="gallery-masonry.html">Gallery Album Style</a></li>*@
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#contact">Shop</a>
+
+                                                        <div class="regular-menu">
+                                                            <ul>
+                                                                <li><strong class="title">Products</strong></li>
+                                                                <li><a href="~/Shop/Product">Products</a></li>
+                                                                <li><a href="~/Shop/Productlist">Products List</a></li>
+                                                                <li><a href="~/Shop/Catageries">Categories</a></li>
+                                                                <li><a href="~/Shop/Details">Details</a></li>
+                                                            </ul>
+                                                            @*<ul>
+                                                            <li><strong class="title">Menu Title</strong></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            </ul>
+                                                            <ul>
+                                                            <li><strong class="title">Menu Title</strong></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            </ul>
+                                                            <ul>
+                                                            <li><strong class="title">Menu Title</strong></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            <li><a href="#">Menu Items</a></li>
+                                                            </ul>*@
+                                                        </div>
+
+                                                    </li>
+                                                    <li>
+                                                        <a href="#contact">Gallery</a>
+
+                                                        <div class="regular-menu video-menu-width">
+                                                            <ul>
+                                                                <li><strong class="title">Gallary views</strong></li>
+                                                                <li><a href="~/Gallary/gallerylarge">Gallery Large</a></li>
+                                                                <li><a href="~/Gallary/gallerymedium">Gallery Medium</a></li>
+                                                                <li><a href="~/Gallary/gallerysmall">Gallery Small</a></li>
+                                                                <li><a href="~/Gallary/gallerymasonry">Gallery Album Style</a></li>
+                                                                @*<li><a href="blog-full.html">Blog Full</a></li>
+                                                                <li><a href="blog.html">Blog Grid</a></li>
+                                                                <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                                                                <li><a href="blog-details.html">Blog Details</a></li>*@
+                                                            </ul>
+                                                            @*<ul class="video-menu">
+                                                            <li><strong class="title">Menu Title</strong></li>
+                                                            <li>
+                                                            <iframe src="http://player.vimeo.com/video/15069551?title=0&amp;byline=0&amp;portrait=0" style="width:306px; height:229px; border:0;"></iframe>
+                                                            </li>
+                                                            </ul>*@
+                                                        </div>
+
+                                                    </li>
+                                                    <li><a href="~/Aboutus/contactus">Contact Us</a></li>
+                                                    <li>
+                                                        <a href="#">Hi @TempData["name"]</a>
+
+
+
+                                                    </li>
+
+
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="main-slider">
+            <div class="slider">
+                <ul class="mslider">
+                    <li>
+                        <img src="~/images/slider1.jpg" alt="Fashion Responsive" />
+                        <div class="slide-info">
+                            <div class="left">
+                                <h3>Latest<span> Fashion</span></h3>
+
+                            </div>
+                            <div class="right">
+
+                                <span class="date">June.30</span>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="~/images/slider2.jpg" alt="Fashion Responsive" />
+                        <div class="slide-info">
+                            <div class="left">
+                                <h3>Latest<span> Fashion</span></h3>
+
+                            </div>
+                            <div class="right">
+
+                                <span class="date">June.30</span>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="~/images/slider3.jpg" alt="Fashion Responsive" />
+                        <div class="slide-info">
+                            <div class="left">
+                                <h3>Hi,<span>John</span></h3>
+
+                            </div>
+                            <div class="right">
+
+                                <span class="date">June.30</span>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="difference">
+                    <h3>
+                        Clear <br>
+                        <span>Difference</span> in <br>
+                        Quality
+                    </h3>
+                </div>
+            </div>
+            <div class="main-slider-curve curve-img"></div>
+        </section>
+
+
+        <section class="welcome-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>
+                            Welcome to <br>
+                            Our Store
+                        </h1>
+                    </div>
+                    <div class="col-lg-6"><img src="~/images/wcpic.png" alt="Fashion Theme"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="pro-slider">
+            <div class="pro-bx-slider">
+                <div class="slider-readmore"> <strong>See More Photos.</strong> <a href="#">Click Here...</a> </div>
+                <div class="pro-slider-wrap">
+                    <ul class="pbxslider gallery">
+                        <li>
+                            <div class="pro-holder2">
+                                <img src="~/images/hs-pro1.png" alt="" />
+                                <div class="pro-overlay"></div>
+                                <div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pro-holder2">
+                                <img src="~/images/hs-pro2.png" alt="" />
+                                <div class="pro-overlay"></div>
+                                <div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pro-holder2">
+                                <img src="~/images/hs-pro3.png" alt="" />
+                                <div class="pro-overlay"></div>
+                                <div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pro-holder2">
+                                <img src="~/images/hs-pro1.png" alt="" />
+                                <div class="pro-overlay"></div>
+                                <div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pro-holder2">
+                                <img src="~/images/hs-pro2.png" alt="" />
+                                <div class="pro-overlay"></div>
+                                <div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pro-holder2">
+                                <img src="~/images/hs-pro3.png" alt="" />
+                                <div class="pro-overlay"></div>
+                                <div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="new-collection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 stitle">
+                        <h2>New Collection</h2>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="pro-holder">
+                            <div class="sale-tag">On Sale</div>
+                            <img src="images/nc-1.jpg" alt="">
+                            <div class="pro-content">
+                                <h2 class="pro-title">Product Title</h2>
+                                <div class="pro-footer">
+                                    <ul>
+                                        <li class="addwishlist"><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+                                        <li class="addcart"><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro-holder">
+                            <div class="sale-tag">On Sale</div>
+                            <img src="~/images/nc-2.jpg" alt="">
+                            <div class="pro-content">
+                                <h2 class="pro-title">Product Title</h2>
+                                <div class="pro-footer">
+                                    <ul>
+                                        <li class="addwishlist"><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+                                        <li class="addcart"><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="pro-holder">
+                            <div class="new-tag">New</div>
+                            <img src="~/images/nc-3.jpg" alt="">
+                            <div class="pro-content">
+                                <h2 class="pro-title">Product Title</h2>
+                                <div class="pro-footer">
+                                    <ul>
+                                        <li class="addwishlist"><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+                                        <li class="addcart"><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro-holder">
+                            <div class="new-tag">New</div>
+                            <img src="~/images/nc-4.jpg" alt="">
+                            <div class="pro-content">
+                                <h2 class="pro-title">Product Title</h2>
+                                <div class="pro-footer">
+                                    <ul>
+                                        <li class="addwishlist"><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+                                        <li class="addcart"><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="pro-holder">
+                            <div class="sale-tag">On Sale</div>
+                            <img src="~/images/nc-5.jpg" alt="">
+                            <div class="pro-content">
+                                <h2 class="pro-title">Product Title</h2>
+                                <div class="pro-footer">
+                                    <ul>
+                                        <li class="addwishlist"><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+                                        <li class="addcart"><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro-holder">
+                            <div class="new-tag">New</div>
+                            <img src="~/images/nc-6.jpg" alt="">
+                            <div class="pro-content">
+                                <h2 class="pro-title">Product Title</h2>
+                                <div class="pro-footer">
+                                    <ul>
+                                        <li class="addwishlist"><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+                                        <li class="addcart"><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @Html.Partial("_footer")
+    </div>
+
+
+    <script src="~/js/jquery-1.11.1.min.js"></script>
+    <script src="~/js/jquery-migrate-1.2.1.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.bxslider.min.js"></script>
+    <script src="~/js/jquery.prettyPhoto.js"></script>
+    <script src="~/js/custom.js"></script>
+</body>
+
+<!-- Mirrored from html.crunchpress.com/fashion/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 May 2016 04:24:18 GMT -->
+</html>
+
+

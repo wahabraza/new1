@@ -1,0 +1,166 @@
+﻿@{
+    ViewBag.Title = "Details";
+}
+
+<!doctype html>
+<html lang="en" dir="ltr" class="no-js">
+
+<!-- Mirrored from html.crunchpress.com/fashion/pro-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 May 2016 04:32:05 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Fashion Theme Responsive">
+<meta name="keywords" content="Fashion, HTML5 Theme,CSS3 Animation,JavaScript, Crunch Press">
+<meta name="author" content="Crunch Press">
+<link rel="shortcut icon" href="images/fashopn.html">
+<title>Fashion Theme Responsive</title>
+<link href="~/css/style.css" rel="stylesheet">
+<link href="~/css/color.css" rel="stylesheet">
+<link href="~/css/bootstrap.css" rel="stylesheet">
+<link href="~/css/font-awesome.min.css" rel="stylesheet">
+<link href="~/css/jquery.bxslider.css" rel="stylesheet">
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+ 
+<div class="wrapper">
+ 
+@Html.Partial("_header")
+ 
+ 
+<section class="main-slider inner-slider">
+<div class="slider">
+<ul class="mslider-inner">
+<li><img src="~/images/si1.jpg" alt="Fashion Responsive"/></li>
+<li><img src="~/images/si2.jpg" alt="Fashion Responsive"/></li>
+<li><img src="~/images/si3.jpg" alt="Fashion Responsive"/></li>
+</ul>
+</div>
+<div class="main-slider-curve curve-img"></div>
+</section>
+ 
+ 
+<section class="products grid-view">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<h2 class="main-title">Products List View</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-sm-3 sidebar">
+ 
+<div class="category widget">
+<h3>Category</h3>
+<ul>
+<li><a href="#"> Casual Wear </a> <span>10</span></li>
+<li><a href="#"> Jeans</a> <span>22</span></li>
+<li><a href="#"> Tops</a> <span>20</span></li>
+<li><a href="#"> Jackets</a> <span>18</span></li>
+<li><a href="#">Night Wear</a> <span>26</span></li>
+<li><a href="#">Party Wear</a> <span>28</span></li>
+</ul>
+</div>
+<div class="featured widget">
+<h3>Featured Items</h3>
+<ul>
+<li class="fp-item"> <img src="~/images/fp3.jpg" alt="">
+<h4>Product Name</h4>
+<a href="#">Details</a> </li>
+<li class="fp-item"> <img src="~/images/fp1.jpg" alt="">
+<h4>Product Name</h4>
+
+<a href="#">Details</a> </li>
+<li class="fp-item"> <img src="~/images/fp2.jpg" alt="">
+<h4>Product Name</h4>
+
+<a href="#">Details</a> </li>
+</ul>
+</div>
+</div>
+<div class="col-lg-9 col-sm-9">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-5 col-sm-5">
+<div class="pro-details-slider">
+<ul class="prod-slider">
+<li><img src="~/images/shirtM1.jpg" alt=""/></li>
+<li><img src="~/images/shirtM2.jpg" alt="" /></li>
+<li><img src="~/images/shirtM3.jpg" alt="" /></li>
+<li><img src="~/images/shirtM4.jpg" alt="" /></li>
+</ul>
+<div id="bx-pager"> <a data-slide-index="0" href="#"><img src="images/pdt-g1.jpg" alt=""/></a> <a data-slide-index="1" href="#"><img src="images/pdt-g2.jpg" alt=""/></a> <a data-slide-index="2" href="#"><img src="images/pdt-g3.jpg" alt=""/></a> <a data-slide-index="3" href="#"><img src="images/pdt-g4.jpg" alt=""/></a> </div>
+</div>
+</div>
+<div class="col-md-7 col-sm-7 ">
+<div class="pro-details-sec">
+<div class="pro-head"> <span><a href="#"> ‹ Back to Fashion </a></span> <span class="pull-right"><a href="#prev">Prev</a> / <a href="#next">Next</a> <a href="#back"><i class="fa fa-angle-left"></i></a> <a href="#next"><i class="fa fa-angle-right"></i></a></span> </div>
+<h3>Product Name</h3>
+<span class="stock"><i class="fa fa-check-circle"></i> Available in stock </span>
+<ul class="hot-deal-options">
+<li class="rating-stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></li>
+<li class="reviews"><a href="#">(5) reviews</a></li>
+</ul>
+<div class="pdetails">
+
+<ul class="points">
+<li> Constructed in washed cotton jersey</li><
+<li> Fixie american apparel flexitarian pitchfork neutra</li>
+<li> Brooklyn high life plaid cardigan</li>
+<li> Regular fit</li>
+<li> Authentic sartorial wes anderson scenester</li>
+</ul>
+</div>
+<div class="quantity">
+<div class="numeric-stepper">
+<button type="submit" name="ns_button_1" value="1" class="plus">+</button>
+<input type="text" name="ns_textbox" size="2" class="input-text qty text"/>
+<button type="submit" name="ns_button_2" value="-1" class="minus">-</button>
+</div>
+<input class="addtocart" type="button" value="Add to CART">
+</div>
+<div class="product_meta"> <span class="sku_wrapper"> SKU: <span class="sku">SD-091</span>.</span> <span class="posted_in">Category: <a rel="tag" href="#">Instrumental</a>.</span> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="tabs-details">
+<ul class="nav nav-tabs" role="tablist">
+<li class="active"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
+<li><a href="#adinfo" role="tab" data-toggle="tab">Additional Information</a></li>
+<li><a href="#reviews" role="tab" data-toggle="tab">Reviews</a></li>
+</ul>
+ 
+<div class="tab-content">
+<div class="tab-pane active" id="description"> <strong>Description</strong>
+
+</div>
+<div class="tab-pane" id="adinfo"> <strong>Additional Information</strong>
+<p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div>
+<div class="tab-pane" id="reviews"> <strong>Reviews</strong>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+ 
+@Html.Partial("_footer")
+</div>
+ 
+ 
+<script src="~/js/jquery-1.11.1.min.js"></script> 
+<script src="~/js/jquery-migrate-1.2.1.js"></script> 
+<script src="~/js/bootstrap.min.js"></script> 
+<script src="~/js/jquery.bxslider.min.js"></script> 
+<script type="text/javascript" src="js/ns.js"></script> 
+<script src="~/js/custom.js"></script> 
+</body>
+
+<!-- Mirrored from html.crunchpress.com/fashion/pro-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 May 2016 04:32:15 GMT -->
+</html>

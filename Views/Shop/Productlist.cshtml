@@ -1,0 +1,248 @@
+﻿@{
+    ViewBag.Title = "Productlist";
+}
+
+<!doctype html>
+<html lang="en" dir="ltr" class="no-js">
+
+<!-- Mirrored from html.crunchpress.com/fashion/pro-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 May 2016 04:31:54 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Fashion Theme Responsive">
+<meta name="keywords" content="Fashion, HTML5 Theme,CSS3 Animation,JavaScript, Crunch Press">
+<meta name="author" content="Crunch Press">
+<link rel="shortcut icon" href="images/fashopn.html">
+<title>Fashion Theme Responsive</title>
+<link href="~/css/style.css" rel="stylesheet">
+<link href="~/css/color.css" rel="stylesheet">
+<link href="~/css/bootstrap.css" rel="stylesheet">
+<link href="~/css/font-awesome.min.css" rel="stylesheet">
+<link href="~/css/jquery.bxslider.css" rel="stylesheet">
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+ 
+<div class="wrapper">
+ 
+@Html.Partial("_header")
+ 
+ 
+<section class="main-slider inner-slider">
+<div class="slider">
+<ul class="mslider-inner">
+<li><img src="~/images/si1.jpg" alt="Fashion Responsive"/></li>
+<li><img src="~/images/si2.jpg" alt="Fashion Responsive"/></li>
+<li><img src="~/images/si3.jpg" alt="Fashion Responsive"/></li>
+</ul>
+</div>
+<div class="main-slider-curve curve-img"></div>
+</section>
+ 
+ 
+<section class="products grid-view">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<h2 class="main-title">Products List View</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-sm-3 sidebar">
+ 
+<div class="category widget">
+<h3>Category</h3>
+<ul>
+<li><a href="#"> Casual Wear </a> <span>10</span></li>
+<li><a href="#"> Jeans</a> <span>22</span></li>
+<li><a href="#"> Tops</a> <span>20</span></li>
+<li><a href="#"> Jackets</a> <span>18</span></li>
+<li><a href="#">Night Wear</a> <span>26</span></li>
+<li><a href="#">Party Wear</a> <span>28</span></li>
+</ul>
+</div>
+<div class="featured widget">
+<h3>Featured Items</h3>
+<ul>
+<li class="fp-item">
+<img src="~/images/fp3.jpg" alt="">
+<h4>Product Name</h4>
+
+<a href="#">Details</a>
+</li>
+<li class="fp-item">
+<img src="~/images/fp1.jpg" alt="">
+<h4>Product Name</h4>
+
+<a href="#">Details</a>
+</li>
+<li class="fp-item">
+<img src="~/images/fp2.jpg" alt="">
+<h4>Product Name</h4>
+
+<a href="#">Details</a>
+</li>
+</ul>
+</div>
+<div class="sidebanner widget">
+<img src="~/images/banner.jpg" alt="">
+</div>
+</div>
+<div class="col-lg-9 col-sm-9 gallery">
+<div class="container-fluid">
+<div class="row">
+<div class="list-pro">
+<div class="col-lg-4 col-sm-4">
+<div class="pro-holder2"> <img src="~/images/pro/shirtM6.jpg" alt=""/>
+<div class="pro-overlay"></div>
+<div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+</div>
+</div>
+<div class="col-lg-8 col-sm-8">
+<h3>Product Name</h3>
+<span class="stock"><i class="fa fa-check-circle"></i> Available in stock </span>
+<ul class="hot-deal-options">
+<li class="rating-stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></li>
+<li class="reviews"><a href="#">(5) reviews</a></li>
+<li class="reviews"><a href="#">Add Your Review</a></li>
+</ul>
+
+<strong class="price">$ 45.00/-</strong>
+<ul class="pro-list-footer">
+<li><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+<li><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+<li><a href="#"><i class="fa fa-envelope"></i> Email to Friend</a></li>
+</ul>
+</div>
+</div>
+<div class="list-pro">
+<div class="col-lg-4 col-sm-4">
+<div class="pro-holder2"> <img src="~/images/pro/pro20.jpg" alt="" />
+<div class="pro-overlay"></div>
+<div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+</div>
+</div>
+<div class="col-lg-8 col-sm-8">
+<h3>Product Name</h3>
+<span class="outstock"><i class="fa fa-times-circle"></i> Available in stock </span>
+<ul class="hot-deal-options">
+<li class="rating-stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></li>
+<li class="reviews"><a href="#">(5) reviews</a></li>
+<li class="reviews"><a href="#">Add Your Review</a></li>
+</ul>
+
+<strong class="price">$ 45.00/-</strong>
+<ul class="pro-list-footer">
+<li><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+<li><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+<li><a href="#"><i class="fa fa-envelope"></i> Email to Friend</a></li>
+</ul>
+</div>
+</div>
+<div class="list-pro">
+<div class="col-lg-4 col-sm-4">
+<div class="pro-holder2"> <img src="~/images/pro/pro21.jpg" alt="" />
+<div class="pro-overlay"></div>
+<div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+</div>
+</div>
+<div class="col-lg-8 col-sm-8">
+<h3>Product Name</h3>
+<span class="stock"><i class="fa fa-check-circle"></i> Available in stock </span>
+<ul class="hot-deal-options">
+<li class="rating-stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></li>
+<li class="reviews"><a href="#">(5) reviews</a></li>
+<li class="reviews"><a href="#">Add Your Review</a></li>
+</ul>
+
+<strong class="price">$ 45.00/-</strong>
+<ul class="pro-list-footer">
+<li><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+<li><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+<li><a href="#"><i class="fa fa-envelope"></i> Email to Friend</a></li>
+</ul>
+</div>
+</div>
+<div class="list-pro">
+<div class="col-lg-4 col-sm-4">
+<div class="pro-holder2"> <img src="~/images/pro/pro22.jpg" alt="" />
+<div class="pro-overlay"></div>
+<div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+</div>
+</div>
+<div class="col-lg-8 col-sm-8">
+<h3>Product Name</h3>
+<span class="stock"><i class="fa fa-check-circle"></i> Available in stock </span>
+<ul class="hot-deal-options">
+<li class="rating-stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></li>
+<li class="reviews"><a href="#">(5) reviews</a></li>
+<li class="reviews"><a href="#">Add Your Review</a></li>
+</ul>
+<strong class="price">$ 45.00/-</strong>
+<ul class="pro-list-footer">
+<li><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+<li><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+<li><a href="#"><i class="fa fa-envelope"></i> Email to Friend</a></li>
+</ul>
+</div>
+</div>
+<div class="list-pro">
+<div class="col-lg-4 col-sm-4">
+<div class="pro-holder2"> <img src="~/images/pro/pro23.jpg" alt="" />
+<div class="pro-overlay"></div>
+<div class="pro-icon"> <span><a href="images/pro-large.jpg" data-rel="prettyPhoto[gallery1]"><i class="fa fa-search"></i></a> </span> <span><a href="#"><i class="fa fa-link"></i></a> </span> </div>
+</div>
+</div>
+<div class="col-lg-8 col-sm-8">
+<h3>Product Name</h3>
+<span class="stock"><i class="fa fa-check-circle"></i> Available in stock </span>
+<ul class="hot-deal-options">
+<li class="rating-stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></li>
+<li class="reviews"><a href="#">(5) reviews</a></li>
+<li class="reviews"><a href="#">Add Your Review</a></li>
+</ul>
+
+<strong class="price">$ 45.00/-</strong>
+<ul class="pro-list-footer">
+<li><a href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a></li>
+<li><a href="#"><i class="fa fa-heart"></i> Add to Wishlist</a></li>
+<li><a href="#"><i class="fa fa-envelope"></i> Email to Friend</a></li>
+</ul>
+</div>
+</div>
+<div class="paging">
+<ul class="pagination">
+<li><a href="#">&laquo;</a></li>
+<li><a href="#">1</a></li>
+<li><a href="#">2</a></li>
+<li><a href="#">3</a></li>
+<li><a href="#">4</a></li>
+<li><a href="#">5</a></li>
+<li><a href="#">&raquo;</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+ 
+@Html.Partial("_footer")
+</div>
+ 
+ 
+<script src="~/js/jquery-1.11.1.min.js"></script> 
+<script src="~/js/jquery-migrate-1.2.1.js"></script> 
+<script src="~/js/bootstrap.min.js"></script> 
+<script src="~/js/jquery.bxslider.min.js"></script> 
+<script src="~/js/jquery.prettyPhoto.js"></script> 
+<script src="~/js/custom.js"></script> 
+</body>
+
+<!-- Mirrored from html.crunchpress.com/fashion/pro-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 May 2016 04:32:01 GMT -->
+</html>
+
